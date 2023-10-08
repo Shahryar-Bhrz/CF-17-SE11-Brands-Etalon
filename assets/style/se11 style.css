@@ -1,0 +1,14 @@
+:root {
+    --lato-font: 'Lato', sans-serif;
+    --roboto-font: 'Roboto', sans-serif;
+    --primary-color-1: #2A4032;
+    --primary-color-2: #3A5E46;
+    --circles-color: #1B2D22;
+    --yellow-color: #FDDE67;
+    --black-color: #181818;
+    --footer-color: #3B5F47;
+}
+
+* {
+    box-sizing: border-box;
+}
