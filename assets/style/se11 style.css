@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+body {
+    color: gray;
+}
+
 .container {
     width: 100%;
     max-width: 360px;
@@ -22,4 +26,102 @@
 #grad1 {
     height: 640px;
     background-image: linear-gradient(to right, var(--grad-color-1), var(--grad-color-2));
+}
+
+.head-txt {
+    padding-top: 27px;
+    padding-left: 15px;
+}
+
+.head-year {
+    font-family: var(--lato-font);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 36px;
+    color: #FFFFFF4D;
+    margin-bottom: 12px;
+
+}
+
+.head-cloths {
+    font-family: var(--lato-font);
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.head-sale {
+    font-family: var(--lato-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #FFFFFFCC;
+    opacity: 80%;
+    margin-bottom: 24px;
+}
+
+.head-button-box {
+    padding-top: 12px;
+}
+
+.head-button {
+    font-family: var(--lato-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--black-color);
+    background-color: var(--yellow-color);
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 40px;
+    border-radius: 6px;
+}
+
+.driver-box {
+    /* padding: 0 27.22px; */
+}
+
+.head-driver {
+    position: relative;
+
+
+}
+
+.driver-img {
+    position: absolute;
+    padding-left: 75.9px;
+}
+
+.circle-1 {
+    position: absolute;
+    left: 27.22px;
+    top: 110px;
+    /* width: 198.5px; */
+    /* height: 198.5px */
+}
+
+.circle-2 {
+    position: absolute;
+    right: 27.22px;
+    top: 49.3px;
+}
+
+.mobile-nav {
+    width: 100%;
+    position: absolute;
+    top: 330px;
+    left: 0;
+    background-color: var(--yellow-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+}
+
+.img-nav {
+
+    width: 24px;
+    height: 24px
 }
