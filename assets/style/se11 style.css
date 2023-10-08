@@ -1,8 +1,8 @@
 :root {
     --lato-font: 'Lato', sans-serif;
     --roboto-font: 'Roboto', sans-serif;
-    --primary-color-1: #2A4032;
-    --primary-color-2: #3A5E46;
+    --grad-color-1: #2A4032;
+    --grad-color-2: #3A5E46;
     --circles-color: #1B2D22;
     --yellow-color: #FDDE67;
     --black-color: #181818;
@@ -17,4 +17,9 @@
     width: 100%;
     max-width: 360px;
     margin: auto;
+}
+
+#grad1 {
+    height: 640px;
+    background-image: linear-gradient(to right, var(--grad-color-1), var(--grad-color-2));
 }
