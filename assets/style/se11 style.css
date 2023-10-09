@@ -141,3 +141,10 @@ body {
     width: 24px;
     height: 24px
 }
+
+.brands {
+    background-color: var(--black-color);
+    padding: 12px 15px;
+    display: flex;
+    justify-content: space-between;
+}
