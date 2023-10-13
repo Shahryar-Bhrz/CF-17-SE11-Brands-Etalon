@@ -276,3 +276,107 @@ body {
     background-color: var(--black-color);
     border-radius: 6px;
 }
+
+.sell {
+    background: #E9E9E9;
+    padding: 32px 0 32px 15px;
+}
+
+.sell-title {
+    font-family: var(--lato-font);
+    font-size: 32px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 32px;
+
+}
+
+
+.sell-goods {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    gap: 35px
+}
+
+.sell-card {
+    width: 228px;
+}
+
+.good-img {
+    background-color: white;
+    border-radius: 24px;
+    margin-bottom: 16px
+}
+
+
+.good-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.heart-wrapper {
+    display: block;
+    padding-top: 18px;
+    padding-right: 16px;
+}
+
+.heart {
+    display: inline;
+    text-align: rtl;
+    width: 24px;
+    height: 21px;
+    margin-left: 188px
+}
+
+.good {
+    padding: 0 51px 40px 43px;
+    margin-top: -10px;
+    width: 214px;
+    /* height: 239px; */
+}
+
+.good-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.good-name {
+    font-family: var(--roboto-font);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: black;
+
+}
+
+.good-price {
+    font-family: var(--roboto-font);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: black;
+    opacity: 60%;
+
+}
+
+.buy-wrapper {
+    padding: 6px;
+    background-color: var(--yellow-color);
+    border-radius: 6px;
+}
+
+.buy-link {
+    text-decoration: none;
+    color: black;
+}
+
+.good-buy {
+    width: 15.5px;
+    height: 12.5px
+}
