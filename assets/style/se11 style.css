@@ -336,7 +336,7 @@ body {
     padding: 0 51px 40px 43px;
     margin-top: -10px;
     width: 214px;
-    /* height: 239px; */
+    height: auto;
 }
 
 .good-details {
@@ -379,4 +379,48 @@ body {
 .good-buy {
     width: 15.5px;
     height: 12.5px
+}
+
+.footer {
+    background-color: var(--footer-color);
+}
+
+.footer-title {
+    font-family: var(--lato-font);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    padding: 32px 15px;
+
+}
+
+.time {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.number {
+    text-align: center;
+    padding: 12px 13px;
+    background-color: rgba(24, 24, 24, 0.25);
+    font-family: var(--roboto-font);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    border-radius: 8px;
+
+
+}
+
+.time-title {
+    text-align: center;
+    padding: 12px 4px;
+    font-family: var(--roboto-font);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    opacity: 25%
 }
